@@ -30,7 +30,9 @@ Ele não contém conteúdo final dos documentos. Contém **o que existe**, **o q
 ### `GOVERNANCE.md`
 
 * Como o DNA muda sem se corromper.
-* Inclui regras de decisão, revisão e evolução.
+* Define tipos de mudança (editorial, conceitual, filosófica),
+responsabilidades e critérios de registro de alterações de sentido.
+* Documento normativo. Precede decisões de escrita e evolução.
 
 ### `CHANGELOG.md`
 
@@ -90,8 +92,10 @@ Filosofia no TELOS é fim em si mesma. Não é prefácio. Não é marketing.
 
 ### `philosophy/KOAN.md`
 
-* Koan (conceito e peça textual) como dispositivo de contemplação.
-* Pode incluir um ou mais koans usados para orientar o jardim.
+* Documento contemplativo.
+* Não normativo. Não operacional.
+* Não declara relações internas nem orienta implementação.
+* Existe como dispositivo de contemplação e deslocamento de certezas.
 
 ### `philosophy/ETHOS.md`
 
