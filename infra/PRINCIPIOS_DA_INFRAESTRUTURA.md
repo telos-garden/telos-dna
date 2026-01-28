@@ -1,6 +1,49 @@
-# TELOS
+# Princípios Arquiteturais da Infraestrutura
 
-Princípios Arquiteturais da Infraestrutura
+## Propósito
+
+Definir os princípios que orientam a infraestrutura do TELOS para que ela
+**sirva à individualidade do SER**, preserve autonomia e permita revogação real de poder.
+
+Este documento estabelece critérios para decidir **onde, como e por que**
+algo pode ser armazenado, processado ou integrado.
+
+---
+
+## Escopo
+
+Este documento:
+
+* orienta decisões de arquitetura e infraestrutura
+* define limites éticos e operacionais da técnica
+* serve como base para escolhas de armazenamento, execução e integração
+
+Este documento **não**:
+
+* descreve stacks específicos
+* impõe ferramentas, provedores ou vendors
+* substitui documentação técnica detalhada
+
+---
+
+## Vínculos
+
+Este documento se relaciona com:
+
+* philosophy/ANTI_MARKETING_MANIFESTO.md
+  (recusa de captura, lock-in e promessa de futuro)
+
+* concepts/JARDIM.md
+  (estado persistente e seus limites)
+
+* concepts/CONTRATO.md
+  (autorização explícita e revogação)
+
+* GOVERNANCE.md
+  (responsabilidade sobre decisões estruturais)
+
+Qualquer infraestrutura que viole estes princípios
+**deixa de ser TELOS**, mesmo que funcione tecnicamente.
 
 Introdução
 
@@ -10,10 +53,10 @@ Ela existe para sustentar diversidade humana sem colapsar em complexidade técni
 Um sistema que se propõe a servir qualquer pessoa — independentemente de idade,
 profissão, cultura, energia, contexto ou ferramentas — não pode ser acoplado a:
 
-- um fornecedor,
-- um modelo mental,
-- um fluxo rígido,
-- ou uma única representação de dados.
+* um fornecedor,
+* um modelo mental,
+* um fluxo rígido,
+* ou uma única representação de dados.
 
 A infraestrutura do TELOS precisa ser, por definição:
  • agnóstica
