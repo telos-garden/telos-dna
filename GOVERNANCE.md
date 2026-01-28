@@ -22,6 +22,14 @@ mas **não podem alterar retroativamente o DNA**.
 
 ---
 
+## Documentos relacionados
+
+* README.md: orientação e navegação do jardim
+* AGENTS.md: contrato operacional para atuação no repositório
+* ATLAS.md: mapa do conteúdo existente e seus caminhos
+
+---
+
 ## Autoridade atual
 
 Enquanto não houver declaração explícita em contrário:
@@ -94,6 +102,8 @@ Quando uma mudança **altera significado**, ela deve:
 * ser assumida como tal
 * ser visível no histórico
 * evitar linguagem que a apresente como neutra
+* usar mensagens de commit que indiquem o tipo de mudança (editorial, conceitual, filosófica)
+* registrar em PR (ou commit) uma nota curta sobre impacto e documentos afetados
 
 O TELOS-DNA **prefere evolução honesta** a estabilidade ilusória.
 
