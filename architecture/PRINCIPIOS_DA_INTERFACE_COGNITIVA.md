@@ -1,6 +1,49 @@
-# TELOS
+# Princípios Arquiteturais da Interface Cognitiva
 
-Princípios Arquiteturais da Interface Cognitiva
+## Propósito
+
+Estabelecer os princípios que orientam a forma de interação entre o SER e o jardineiro no TELOS.
+
+Este documento define **como a interface deve se comportar** para oferecer suporte cognitivo
+sem impor ritmo, identidade ou objetivo externo ao SER.
+
+---
+
+## Escopo
+
+Este documento:
+
+* define princípios, não componentes
+* orienta decisões de design, interação e fluxo
+* serve como critério de auditoria para interfaces (TUI, CLI, UI gráfica)
+
+Este documento **não**:
+
+* descreve implementação técnica
+* especifica layouts ou padrões visuais concretos
+* substitui decisões locais de produto ou plataforma
+
+---
+
+## Vínculos
+
+Este documento se relaciona com:
+
+* philosophy/ANTI_MARKETING_MANIFESTO.md
+  (rejeição de pressão, promessa e aceleração)
+
+* philosophy/WHAT_IS_TELOS.md
+  (fundamentos do suporte ao SER)
+
+* concepts/JARDINEIRO.md
+  (papel do agente como suporte, não condutor)
+
+* concepts/SEM_LABELS.md
+  (restrição canônica de rotulagem explícita)
+
+Decisões técnicas que violem estes princípios **devem declarar a ruptura**.
+
+---
 
 Introdução
 
